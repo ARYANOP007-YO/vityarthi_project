@@ -43,4 +43,6 @@ To verify the system works correctly, try the following test case:
 <img width="829" height="465" alt="image" src="https://github.com/user-attachments/assets/74abc156-b3f2-4e6d-9fa3-3984175ea3ca" />
 
 2. Output
-<img width="1501" height="348" alt="image" src="https://github.com/user-attachments/assets/79b71df7-9e15-4155-8860-4b50febe498a" />
+<img width="1487" height="323" alt="image" src="https://github.com/user-attachments/assets/f7d53f51-a14d-4b4e-8faf-d2dea57c2563" />
+
+
