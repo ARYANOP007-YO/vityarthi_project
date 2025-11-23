@@ -5,7 +5,12 @@ def delivery_vit_service():
 
 delivery_vit_service()
 
-item = input("items that are avaliable for sell- sports items- bat,shuttle,racket,ball, study item like books, notes, bevrages- soft drink, cold coffees, tea, snacks- chips,choclate etc  : ").strip()
+print("Available items are: bat, shuttle, racket, ball, study item, tea, coffee, soft drink, chips, chocolate")
+item = input("What would you like to buy: ").strip()
+items = ["bat","shuttle","racket","ball", "pen", "tea", "coffee", "soft drink", "chips", "chocolate"]
+if item not in items:
+    print("Sorry, the item you requested is not available.")
+    exit()
 in_stock_response = input("do you want it now ? (y/n): ").strip().lower()
 if in_stock_response.startswith('y'):
     print("ok we want some more details sir")
